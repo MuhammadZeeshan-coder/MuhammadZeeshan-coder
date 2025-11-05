@@ -1,0 +1,41 @@
+ul li a.dropdown-item:hover{
+    background-color: black;
+    color: white;
+}
+a.text-white{
+    text-decoration: none;
+}
+span.one i{
+   color:white;
+   
+}
+span.one{
+    border: 2px solid blue;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    
+}
+div.Nav{
+    margin-right: 120px;
+}
+div.slider{
+    position: absolute;
+    top: 0px;
+
+}
+div.category{
+    margin-left: 450px;
+}
+div.pr-item{
+    border: 0px solid black;
+}
+div.pr-item button.adbtn{
+    font-weight: 600;
+    font-size: 15px;
+}
+span.icon{
+    margin-left: 350px;
+}

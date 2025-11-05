@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css sheets link -->
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-black sticky-top  d-flex align-items-center  justify-content-center">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" width="220" height="65"
+          class="ms-5 rounded-2"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Options</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body align-items-center Nav">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle me-lg-2 text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Grocery Foods
+              </a>
+              <ul class="dropdown-menu bg-black">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mx-lg-2 text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Grocery non Food
+              </a>
+              <ul class="dropdown-menu bg-black   drp">
+                <li><a class="dropdown-item text-white" href="#">Baby care</a></li>
+                <li><a class="dropdown-item text-white" href="#">General Goods</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item text-white" href="#">Multi Purpose</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 text-white" aria-current="page" href="#">My Account</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mx-lg-2 text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu bg-black drp">
+                <li><a class="dropdown-item text-white" href="#">Shipping</a></li>
+                <li><a class="dropdown-item text-white" href="#">Tracking order</a></li>
+                <li>
+                </li>
+                <li><a class="dropdown-item text-white" href="#">Wishlist</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 text-white" aria-current="page" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 text-white" aria-current="page" href="#">Checkout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-3 me-lg-5">
+        <p><a href="" class="text-white mx-lg-2">Login/Register</a> <span class="mx-lg-2"><i
+              class="fa-solid fa-magnifying-glass text-white"></i></span>
+          <span class="one rounded-circle border-primary p-1 bg-primary mx-lg-2"><i
+              class="fa-solid fa-heart "></i></span>
+          <span class="mx-lg-2"><i class="fa-solid fa-cart-shopping text-white"></i></span>
+        </p>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel slider -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/slide1.png" class="d-block w-100" alt="banner1">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/slide2.png" class="d-block w-100" alt="banner2">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/slide3.png" class="d-block w-100" alt="banner3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row mt-5 row-col-lg-5  row-col-2 ">
+      <div class="col me-0">
+        <img src="./images/p1.png" alt="" width="200" height="200">
+      </div>
+      <div class="col me-0">
+        <img src="./images/p2.png" alt="" width="200" height="200">
+      </div>
+      <div class="col me-0">
+        <img src="./images/p3.png" alt="" width="200" height="200">
+      </div>
+      <div class="col me-0">
+        <img src="./images/p4.png" alt="" width="200" height="200">
+      </div>
+      <div class="col me-0 ">
+        <img src="./images/p5.png" alt="" width="200" height="200">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="mt-5 text-primary">Hurry up to Buy</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2>New Arrivals</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="mt-3">How can you evaluate content without design</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row text-center mt-2 category">
+      <div class="col-2">
+        <a href="" class="text-decoration-none text-black">ALL PRODUCTS</a>
+      </div>
+      <div class="col-2">
+        <a href="" class="text-decoration-none text-black">NEW PRODUCTS</a>
+      </div>
+      <div class="col-2">
+        <a href="" class="text-decoration-none text-black">BIRTHDAY</a>
+      </div>
+    </div>
+  </div>
+  <section class="container-fluid">
+    <div class="container">
+      <div class="row row-col-lg-5 row-col-2">
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 pr-item text-center">
+            <img src="./images/pr1.png" class="img-fluid " alt="product" width="180" height="180">
+            <h6>TAPAL DANEDAR ECONOMY PACK 900</h6>
+            <p>Teas</p>
+            <p class="text-primary">1,800Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 box-shadow-2 pr-item text-center">
+            <img src="./images/pr2.png" class="img-fluid " alt="product" width="180" height="10">
+            <h6>NESTLE MILKPAK MILK FULL CREAM</h6>
+            <p>Milk</p>
+            <p class="text-primary">95Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 box-shadow-2 pr-item text-center">
+            <img src="./images/pr3.png" class="img-fluid " alt="product" width="180" height="180">
+            <h6>DOVE SOAP ORIGINAL BEAUTY BAR</h6>
+            <p>Beauty Soaps, Body Wash</p>
+            <p class="text-primary">450Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 box-shadow-2 pr-item text-center">
+            <img src="./images/pr4.png" class="img-fluid " alt="product" width="180" height="180">
+            <h6>Molfix S4 50 Diapers Pack</h6>
+            <p>Baby care</p>
+            <p class="text-primary">2,150Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 box-shadow-2 pr-item text-center">
+            <img src="./images/pr1.png" class="img-fluid " alt="product" width="180" height="180">
+            <h6>TAPAL DANEDAR ECONOMY PACK 900</h6>
+            <p>Teas</p>
+            <p class="text-primary">1,800Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 box-shadow-2 pr-item text-center">
+            <img src="./images/pr2.png" class="img-fluid " alt="product" width="180" height="10">
+            <h6>NESTLE MILKPAK MILK FULL CREAM</h6>
+            <p>Milk</p>
+            <p class="text-primary">95Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 box-shadow-2 pr-item text-center">
+            <img src="./images/pr3.png" class="img-fluid " alt="product" width="180" height="180">
+            <h6>DOVE SOAP ORIGINAL BEAUTY BAR</h6>
+            <p>Beauty Soaps, Body Wash</p>
+            <p class="text-primary">450Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-2 col-1 mt-3">
+          <div class=" border-1 pr-item text-center">
+            <img src="./images/pr4.png" class="img-fluid " alt="product" width="180" height="180">
+            <h6>Molfix S4 50 Diapers Pack</h6>
+            <p>Baby care</p>
+            <p class="text-primary">2,150Rs</p>
+            <button class=" px-4 py-1 rounded-2 bg-primary text-white adbtn"><i
+                class="fa-solid fa-cart-shopping text-white"></i>ADD TO CART</button>
+            <br>
+            <button class="mt-3 text-success border-success rounded-2 whatbtn mb-4"><i
+                class="fa-brands fa-whatsapp"></i>Order on Whatsapp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="row">
+    <div class="col-12 text-center">
+      <button class="mt-3 rounded-1">LOAD MORE PRODUCT</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="mt-5 text-primary">There are some redeeming factors</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2>We Provide High Quality Goods</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="mt-3">A client that's unhappy for a reason is a problem, a client that's unhappy though he or her can't
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-4 text-center">
+      <i class="fa-regular fa-truck fa-2xl mb-3 text-primary"></i>
+      <h3>Fast Delivery</h3>
+      <p>Chances are there wasn't collaboration and <br> checkpoints, there wasn't a process.</p>
+    </div>
+    <div class="col-4 text-center">
+      <i class="fa-regular fa-thumbs-up fa-2xl mb-3 text-primary "></i>
+      <h3>Best Quality</h3>
+      <p>It's content strategy gone awry right from the start. <br> Forswearing the use of Lorem Ipsum.</p>
+    </div>
+    <div class="col-4 text-center">
+      <i class="fa-solid fa-arrows-rotate fa-2xl text-primary mb-3"></i>
+      <h3>Free Return</h3>
+      <p>True enough, but that's not all that it takes to get things <br> back on track out there for a text.</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <p class="mt-5 text-primary">Learn how to get a discount</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2>Most Popular Products</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="mt-3">Proponents of content strategy may shun of dummy copy designer/p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <p class="mt-5">Our new best Products</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2>Sale Products</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="mt-3">Our Sale Products section is packed with huge savings, limited-time offers, and exclusive deals
+        <br> you won’t find anywhere else. Whether it's trendy fashion, top-notch gadgets, home essentials, or
+        <br>must-have accessories, we’ve got jaw-dropping prices just for you!</p>
+    </div>
+  </div>
+  <footer class="bg-light container-fluid">
+    <div class="row">
+      <div class="col-5">
+        <img src="./images/logo.png" alt="" width="320" height="150" class="mx-4 mt-3">
+        <p class="mt-3">Shop online at Mega Mart Pakistan for a wide range of groceries, fashion, and household essentials at
+          unbeatable prices. Fast delivery & secure shopping!</p>
+        <p>Share:
+          <span class="icon">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-solid fa-x"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+          </span>
+        </p>
+      </div>
+      <div class="col-2 ">
+        <h5 class="mb-4">Quick links</h5>
+        <a href="" class="text-decoration-none text-black lh-lg mb-5">About us</a><br>
+        <a href="" class="text-decoration-none text-black lh-lg mb-5">Privacy Policy</a><br>
+        <a href="" class="text-decoration-none text-black lh-lg mb-5">Shipping</a><br>
+        <a href="" class="text-decoration-none text-black lh-lg mb-5">Track Order</a><br>
+        <a href="" class="text-decoration-none text-black lh-lg mb-5">FAQs</a>
+      </div>
+    </div>
+    <div class="row bg-warning text-center">
+       <div class="col-12">
+        © Copyright | 2025 | MegaMart | All Rights Reserved​
+       </div>
+    </div>
+
+  </footer>
+</body>
+<!-- js bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+
+</html>
