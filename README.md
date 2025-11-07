@@ -26,9 +26,10 @@ I dream of becoming a **Startup Founder** — building digital products that sol
 ---
 
 ## 📫 Connect with Me
-- 💼 [GitHub](https://github.com/yourusername)
+- 💼 [GitHub](https://github.com/MuhammadZeeshan-coder)
 - 🌐 [Portfolio (Coming Soon)](#)
-- 📧 [Email Me](mailto:youremail@example.com)
+- 📧 [Email Me](mailto:mzeeshan151109@gmail.com
+- )
 
 ---
 
