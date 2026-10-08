@@ -1,4 +1,4 @@
-````markdown
+
 <h1 align="center">Hi 👋, I'm Muhammad Zeeshan</h1>
 
 <h3 align="center">
@@ -233,4 +233,3 @@ I enjoy working on projects involving:
 <p align="center">
   Thanks for visiting my profile! ⭐
 </p>
-```
